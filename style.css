@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+
+h1{
+    padding: 30px;
+    margin: 0px;
+}
+
+h6{
+    margin: 10px;
+    padding: 10px;
+}
+
+.Text{
+    margin: 20px;
+    padding: 20px;
+}
+
+header{
+    height: 200px; /*Block height*/
+    background-color: #b20b0be9; /*background color*/
+    color: rgb(244, 240, 234);
+    text-align: center;
+    padding-top: 50px;
+    font-size: xx-large;
+
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2022/05/Analog-Horror-Feature.jpg");
+    background-size: contain;
+
+    font-family: 'EB Garamond';
+    text-shadow: 2px 2px 5px #000;
+}
+
+main{
+    height: 700px;/*minecraftblockheight*/
+    background-color: #120f0f;/*background colour*/
+    color: aliceblue;/*text color*/
+    font-size: x-large;/*text size*/
+    padding-top: 20px;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    height: 400px;/*block height (my fingers are dying)*/
+    background-color: blue;/*background color*/
+    color: crimson;/*text colour*/
+    font-size: xx-large;/*text size*/
+    padding-top: 20px;
+}
+
+.social img{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
